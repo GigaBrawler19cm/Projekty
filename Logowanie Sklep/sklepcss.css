@@ -1,0 +1,96 @@
+body, html
+{
+    height: 100vh;
+    margin: 0;
+    background-color: silver;
+}
+#tytul
+{
+    z-index: 5 !important;
+    width: 100%;
+    text-align: center;
+    transform: translate(0%, -30%);
+    position: absolute;
+    margin: 0;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+#nav
+{
+    transform: translateX(-5.8em);
+    font-size: 17pt;
+    list-style: none;
+}
+#nav li
+{
+    margin-left: 10em;
+    display: inline;
+}
+.menu
+{
+    color: black;
+    text-decoration: unset;
+}
+.menu:hover
+{
+    font-weight: bold;
+    color: darkblue;
+}
+#sg
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5cm;
+    width: 60%;
+    height: 100vh;
+}
+.r
+{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    float: left;
+    width: 15%;
+    height: 70vh;
+    margin: 1em;
+    background-color: white;
+}
+#i1
+{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    margin: 1em;
+    min-width: 40%;
+    max-width: 50%;
+    height: 50vh;
+    background-color: brown;
+    float: left;
+}
+.kup
+{
+    background: none;
+    border: none;
+    width: 64px;
+    height: 64px;
+}
+.kup:hover
+{
+    color:gray;
+}
+#r2
+{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    margin: 1em;
+    float: right;
+    width: 15%;
+    height: 70vh;
+    background-color: white;
+}
+.rtekst
+{
+    font-size: 20pt;
+    margin-top: 35vh;
+    text-align: center;
+}
+#is
+{
+    text-align: center;
+    font-size: 20pt;
+}

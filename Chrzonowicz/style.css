@@ -1,0 +1,70 @@
+body, html
+{
+    width: auto;
+    height: auto;
+}
+#gora
+{ 
+    position: relative;
+    box-shadow: 0em .3em 1em rgba(0, 0, 0, .5);
+    padding: 0.1pt;
+    margin: -1.3em;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    width: 100.9vw;
+}
+#Gra
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("Król.jpg");
+    border-radius: .3em;
+    border: solid .18em black;
+    position: relative;
+    top: 10em;
+    box-shadow: 0em 1em 6em rgba(0, 0, 0, .5);
+    padding: 2em;
+    margin: auto;
+    width: fit-content;
+    background-color: gainsboro;
+}
+#Gra:hover
+{
+    box-shadow: inset 0em 0em .5em rgba(0, 0, 0, .5);
+    background-color: rgb(180, 179, 179);
+}
+#menu
+{
+    padding: .5em;
+    position: fixed;
+    margin-top: 4.2em;
+    box-shadow: 0em 1em 6em rgba(0, 0, 0, .5);
+    color:white;
+    margin-left: -.5em;
+    background-color:green;
+    width: 13vw;
+    height: 100vh;
+}
+.hrefy
+{
+    text-decoration: none;
+    color: white
+}
+.hrefy:hover
+{
+    transition: all .2s;
+    color: rgb(196, 196, 196);
+}
+#Diff
+{
+    float: right;
+    margin-top: -6em;
+}
+h4
+{
+    clear: both;
+    text-align:center; 
+    color:black; 
+    margin-top: -em
+}

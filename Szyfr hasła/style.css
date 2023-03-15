@@ -1,0 +1,45 @@
+html, body{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px auto;
+    color: goldenrod;
+}
+*
+{
+    box-sizing: border-box;
+}
+.tlo
+{
+    height: 100vh;
+    background-image: url("background.png");
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logowanie
+{
+    height: 100vh;
+    position: absolute;
+    width: 25%;
+    background-color: rgb(19, 16, 16);
+    text-align: center;
+    box-shadow: 85px 50px 100px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0%;
+    transform: translate(0%, -100%);
+}
+#nagl
+{
+    padding:50px;
+}
+input
+{
+    margin: 7px;
+    border: solid gold 3px;
+    border-radius: 10px;
+}
+.maly
+{
+    font-size: 14px;
+}

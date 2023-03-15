@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <script src="skryptindex1.js"></script>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
+</head>
+<body>
+    <div id="bg"></div>
+    <main>
+    <div id="gora">
+        <div id="header">
+            <b>Giga czad Strona</b> <br>
+        </div>
+        <div id="nav">
+        <h4>Menu</h4>
+        <a class="btn" onclick="gstrona()"><u>Głowna strona</u></a><br>
+        <a class ="btn" onclick="kalkulator()"><u>Kalkulator</u></a><br>
+        <a class="btn" onclick="krkszk()"><u>Ile do końca roku szkolnego?</u></a><br>
+        <a class="btn" onclick="wychowawca()"><u>Nasz ulubiony wychowawca</u></a><br>
+        </div>
+    </div>
+    <div id="gstrona">
+        <div class="info">
+            <strong>Kalkulator</strong> <br>
+            <input type="number" id="liczba1"> <br>
+            <select id="znak">
+                <option id="dod">+</option>
+                <option id="odj">-</option>
+                <option id="raz">*</option>
+                <option id="dzl">/</option>
+            </select>
+            <strong id="wynik">Wynik to </strong> <br>
+            <input type="number" id="liczba2"> <br>
+            <input type="button" onclick="kalk()" value="Oblicz">
+        </div>
+    </div>
+    </main>
+</body>
+</html>

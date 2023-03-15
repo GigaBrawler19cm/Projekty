@@ -1,0 +1,57 @@
+body, html
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: black
+}
+#logowanie
+{
+    transform: translate(0, -100%);
+    background-color: gray;
+    position: absolute;
+    margin: 0;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    padding: .5em;
+    min-width: 18%;
+    height: 99.7vh;
+    text-align:center;
+}
+#tekst
+{
+    margin-top:20vh
+}
+input[type=text], input[type=password]
+{
+    border-radius: 2em;
+    padding: .8em;
+    border: .1em solid black;
+}
+input[type=submit]
+{
+    font-weight: bold;
+    font-size: 11pt;
+    width: 12em;
+    padding: .8em;
+    border-radius: 2em;
+}
+input[type=submit]:hover
+{
+    font-weight: bold;
+    font-size: 11pt;
+    background-color: gray;
+}
+h4
+{
+    margin-bottom: -.000000009em;
+    font-size: 18pt;
+}
+#bg
+{
+    background-color: black;
+    -webkit-filter: blur(15px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url("tlo.png");
+}

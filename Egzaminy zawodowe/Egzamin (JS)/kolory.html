@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomocnik CSS</title>
+    <link rel="stylesheet" href="styl2.css">
+    <script src="skrypcior.js"></script>
+</head>
+<body>
+    <header>
+        <div id="pblok">
+            <h1>Pomocnik CSS</h1>
+        </div>
+        <div id="dblok">
+            <ul>
+                <li><a href="kolory.html">Kolory</a></li>
+                <li><a href="czcionki.html">Czcionki</a></li>
+                <li><a href="style.html">Style CSS</a></li>
+                <li><a target="_blank" href="https://www.w3schools.com/css/">Pomoc</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <h2>Podaj składową H koloru w kodzie HSL</h2>
+        <p>0 do 30 czerwienie, do 60 zółcie, do 150 zielnie, do 250 niebieskie, do 360 fiolet i purpura.</p>
+        <img src="kolory.jpg" alt="Przestrzeń barw HSL">
+        <input type="number" min="0" max="360" placeholder="0-360" id="kolorek">
+        <input type="button" value="Generuj paletę" onclick="kolor()">
+        <table>
+            <tr> 
+                <td id="t0" colspan="4">Kolor główny</td>
+            </tr>
+            <tr>
+                <td id="t1">Kolor 2</td><td id="t2">Kolor 3</td><td id="t3">Kolor 4</td><td id="t4">Kolor 5</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        Autor strony: Kamil Fresko
+    </footer>
+</body>
+</html>

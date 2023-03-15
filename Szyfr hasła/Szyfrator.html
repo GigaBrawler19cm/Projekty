@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <script src="szyfrowanie.js"></script>
+    <style>
+        body, html
+        {
+            margin: 0px;
+            height: 100vh;
+        }
+        #bloksr
+        {
+            text-align: center;
+            box-shadow: -1em 2em 1em rgba(0, 0, 0, 0.5);
+            padding: 3em;
+            border: solid 2px black;
+            display: flex;
+            border-radius: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30vh;
+            justify-content: center;
+            height: fit-content;
+            width: fit-content;
+            background-color: darkgray;
+        }
+        #srodek
+        {
+            display: inline-block;
+            padding: 20%;
+        }
+        input[type=text]
+        {
+            padding: .5em;
+            border-radius: 3em;
+        }
+        #xd
+        {
+            font-size: 20px;
+            font-weight: bold;   
+            text-align: center;
+            position: absolute;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Szyfr Hasła</title>
+</head>
+<body>
+        <div id="bloksr">
+            <a id="xd">Szyfrator Haseł</a>
+            <div id="srodek">
+                <input type="text" placeholder="Wpisz hasło..." id="haslo" onkeyup="szyfr()">
+                <p id="Wynik">Zaszyfrowane hasło: </p>
+                <input type="text" placeholder="Wpisz zaszyfrowane hasło..." id="dehaslo" onkeyup="deszyfr()">
+                <p id="Dewynik">Odszyfrowane hasło: </p>
+            </div>
+        </div>
+</body>
+</html>

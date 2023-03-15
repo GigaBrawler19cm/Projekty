@@ -1,0 +1,73 @@
+#litera1, #litera2, #litera3, #litera4, #litera5, #litera6, #litera7, #litera8, #litera9, #litera10, #litera11, #litera12
+{
+    font-size: 72pt;
+}
+#litera1
+{
+    animation: litery 1s .1s alternate infinite
+}
+#litera2
+{
+    animation: litery 1s .2s alternate infinite
+}
+#litera3
+{
+    animation: litery 1s .3s alternate infinite
+}
+#litera4
+{
+    animation: litery 1s .4s alternate infinite
+}
+#litera5
+{
+    animation: litery 1s .5s alternate infinite
+}
+#litera6
+{
+    animation: litery 1s .6s alternate infinite
+}
+#litera7
+{
+    animation: litery 1s .7s alternate infinite
+}
+#litera8
+{
+    animation: litery 1s .8s alternate infinite
+}
+#litera9
+{
+    animation: litery 1s .9s alternate infinite
+}
+#litera10
+{
+    animation: litery 1s 1s alternate infinite
+}
+#litera11
+{
+    animation: litery 1s 1.1s alternate infinite
+}
+#litera12
+{
+    animation: litery 1s 1.2s alternate infinite;
+}
+
+
+#lad
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes litery
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    100%
+    {
+        color: blue;
+        transform: translateY(-.3em);
+    }
+}
