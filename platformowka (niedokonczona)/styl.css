@@ -1,0 +1,44 @@
+body
+{
+    background-color: lightblue;
+}
+#gra
+{
+    background-color: white;
+    margin: auto;
+    border: 3px solid black;
+    width: 1024px;
+    height: 768px;
+}
+#powietrze
+{
+    width: 1024px;
+    height: 668px;
+}
+#trawa
+{
+    height: 100px;
+    width: 1024px;
+    background-color: green;
+}
+#granicag
+{
+    display: none;
+    background-color: red;
+    width: 1024px;
+    height: 1px;
+}
+#granicap
+{
+    background-color: red;
+    height: 1px;
+    width: 1px;
+}
+#gracz
+{
+    transition: all ease 0.1s;
+    transform: translate(0px, 604px);
+    height: 64px;
+    width: 64px;
+    background-color: red;
+}

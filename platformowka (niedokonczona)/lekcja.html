@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <style>
+        #zewdiv
+        {
+            height: 400px;
+            width: 400px;
+            background-color: #dfdfdf; 
+            margin: auto;
+        }
+        #wewdiv
+        {
+            position: relative;
+            margin: auto;
+            top: 40%;
+            background-color: aqua;
+            width: 64px;
+            height: 64px ;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lekcja.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="zewdiv">
+        <div id="wewdiv"></div>
+    </div>
+    <script>
+        $(function() {
+                $('#wewdiv').focus=(function(){
+                    $('#zewdiv').css('background-color', 'red')
+                })
+                $('#wewdiv').blur=(function(){
+                    $('#zewdiv').css('background-color', 'blue')
+                })
+        })
+    </script>
+</body>
+</html>

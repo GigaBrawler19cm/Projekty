@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            background-color: black;
+            background-image: url("tlo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #ben
+        {
+            text-align: center;
+        }
+        #ob
+        {
+            border: .5em solid black;
+            border-radius: 2em;
+            max-width: 100%;
+            height: 640px;
+        }
+        #btn
+        {
+            border: none;
+            background: transparent;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+        #obraz
+        {
+            border: none;
+        }
+        #pytanie
+        {
+            border: .2em solid black;
+            padding: .2em;
+            border-radius: 2em;
+            margin-top: .5em;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <title>Ben</title>
+</head>
+<body>
+    <div id="ben">
+        <img id="ob" src="start.jpg" width="426px" height="640px"><br>
+        <input hidden type="text" id="pytanie" placeholder="Zadaj pytanie Benowi..."> <br>
+        <button id="btn" onclick="zadzwon()"><img id="obraz" src="tel.png" width="64px" height="64px" onmouseleave="this.src='tel.png'" onmouseover="this.src='telc.png'"></button> <br>
+        <a>BloodyCqlm_ &copy</a>
+    </div>
+    <script src="ben.js"></script>
+</body>
+</html>				
